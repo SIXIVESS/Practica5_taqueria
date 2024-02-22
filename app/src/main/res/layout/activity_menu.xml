@@ -30,7 +30,7 @@
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:columnCount="2"
         android:layout_marginTop="20dp"
         android:paddingHorizontal="50dp">
@@ -41,11 +41,12 @@
             android:textColor="@color/white"
             android:background="@drawable/first_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
-            android:paddingVertical="@dimen/menu_buttons_padding"
             android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:gravity="fill_horizontal"
+            android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
-            android:textSize="@dimen/menu_buttons_text"/>
+            android:textSize="@dimen/menu_buttons_text"
+            android:paddingVertical="@dimen/menu_buttons_padding"
+             />
 
         <Button
             android:id="@+id/btn_especialidades"
@@ -53,11 +54,12 @@
             android:textColor="@color/white"
             android:background="@drawable/first_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
-            android:paddingVertical="@dimen/menu_buttons_padding"
             android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:gravity="fill_horizontal"
+            android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
-            android:textSize="@dimen/menu_buttons_text" />
+            android:textSize="@dimen/menu_buttons_text"
+            android:paddingVertical="@dimen/menu_buttons_padding"
+             />
 
         <Button
             android:id="@+id/btn_combinations"
@@ -65,11 +67,12 @@
             android:textColor="@color/white"
             android:background="@drawable/first_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
-            android:paddingVertical="@dimen/menu_buttons_padding"
             android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:gravity="fill_horizontal"
+            android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
-            android:textSize="@dimen/menu_buttons_text" />
+            android:textSize="@dimen/menu_buttons_text"
+            />
+
 
         <Button
             android:id="@+id/btn_tortas"
@@ -77,11 +80,11 @@
             android:textColor="@color/white"
             android:background="@drawable/first_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
-            android:paddingVertical="@dimen/menu_buttons_padding"
             android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:gravity="fill_horizontal"
+            android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
-            android:textSize="@dimen/menu_buttons_text"/>
+            android:textSize="@dimen/menu_buttons_text"
+          />
 
         <Button
             android:id="@+id/btn_sopas"
@@ -89,9 +92,8 @@
             android:textColor="@color/white"
             android:background="@drawable/first_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
-            android:paddingVertical="@dimen/menu_buttons_padding"
             android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:gravity="fill_horizontal"
+            android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text" />
 
@@ -101,11 +103,11 @@
             android:textColor="@color/white"
             android:background="@drawable/first_gradient"
             android:paddingHorizontal="@dimen/menu_buttons_padding"
-            android:paddingVertical="@dimen/menu_buttons_padding"
             android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:gravity="fill_horizontal"
+            android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
-            android:textSize="@dimen/menu_buttons_text"/>
+            android:textSize="@dimen/menu_buttons_text"
+             />
     </GridLayout>
 
 </LinearLayout>

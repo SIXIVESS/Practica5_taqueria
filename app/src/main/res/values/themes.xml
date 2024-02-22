@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Practica5" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.Practica5" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/rojo</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -12,5 +12,5 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
 
-    <style name="Theme.Practica5" parent="Base.Theme.Practica5" />
+
 </resources>
